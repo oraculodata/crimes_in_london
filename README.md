@@ -6,3 +6,13 @@ The data has been extracted from [https://data.police.uk/about](https://data.pol
 ![Page Street Crimes Selected](page_street_crimes_selected.png)
 
 > This project is currently under development. I will soon release the version with connections to MariaDB and Snowflake, along with the historical crime data loading routine. Additionally, I will provide the link to access the application.
+
+
+## Running the application
+
+````
+git clone https://github.com/oraculodata/crimes_in_london.git
+cd crimes_in_london
+pip install -r requirements.txt
+streamlit run 🛡️_Home.py
+````
