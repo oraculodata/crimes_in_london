@@ -2,7 +2,7 @@ This project aims to assist those who plan to visit London or those who live in 
 
 The data has been extracted from [https://data.police.uk/about](https://data.police.uk/data/archive/latest.zip), so they are real data.
 
-![Page Street](page_street.png) "Street Map")
+![Page Street](page_street.png)
 
 
 # Tables
