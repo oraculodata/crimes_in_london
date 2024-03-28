@@ -2,10 +2,14 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
+st.set_page_config(layout="wide")
+
+@st.cache_data()
 def load_data(csv_file):
     df = pd.read_csv(csv_file, sep=';', parse_dates=['date'])
     return df
 
+@st.cache_data()
 def filter_data(df, selected_months):
     if selected_months:
         filtered_df = df[df['date'].dt.strftime('%Y-%m').isin(selected_months)]
